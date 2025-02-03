@@ -50,3 +50,4 @@ def mortgage_payments(principal, rate, amortization):
 # principal = 100,000, rate = 5.5% annually, amortization = 25 years
 # Enter parameters below
 mortgage_payments(100000, 5.5, 25)
+# Example
