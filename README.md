@@ -1,4 +1,4 @@
-def mortgage_payments(principal, rate, amortization):
+    def mortgage_payments(principal, rate, amortization):
     """
     Calculate mortgage payments with different payment frequencies, adjusted for semi-annual compounding.
 
@@ -45,8 +45,7 @@ def mortgage_payments(principal, rate, amortization):
 
     return (round(monthly, 2), round(semi_monthly, 2), round(bi_weekly, 2),
             round(weekly, 2), round(rapid_bi_weekly, 2), round(rapid_weekly, 2))
-
-# Example
-# principal = 100,000, rate = 5.5% annually, amortization = 25 years
-# Enter parameters below
-mortgage_payments(100000, 5.5, 25)
+    # Example
+    # principal = 100,000, rate = 5.5% annually, amortization = 25 years
+    # Enter parameters below
+    mortgage_payments(100000, 5.5, 25)
